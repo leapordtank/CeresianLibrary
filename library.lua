@@ -703,3 +703,4 @@ function framework:createWindow(args)
 
     return window
 end
+return framework
