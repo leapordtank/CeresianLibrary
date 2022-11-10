@@ -472,7 +472,7 @@ function framework:createWindow(args)
         local item = 
         {
         text = args.text or "",
-        key = args.defaultKey.Name or "unbound",
+        key = args.defaultKey or "unbound",
         track = args.trackType or "Toggle",
         state = false,
         drawings = {},
